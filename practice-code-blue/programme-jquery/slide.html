@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+   
+   $("#fadeIn").click(function(){
+       $("#div1").slideUp();
+       $("#div2").slideUp("slow");
+       $("#div3").slideUp(500);
+   });
+   
+   $("#fadeOut").click(function(){
+       $("#div1").slideDown();
+       $("#div2").slideDown("slow");
+       $("#div3").slideDown(500);
+   });
+   
+   $("#fadeToggle").click(function(){
+       $("#div1").slideToggle();
+       $("#div2").slideToggle("slow");
+       $("#div3").slideToggle(500);
+   });
+});
+</script>
+<body>
+
+<button id="fadeIn">Click to fade in elements</button>
+<br>
+<br>
+<button id="fadeOut">Click to fade out elements</button>
+<br>
+<br>
+<button id="fadeToggle">Click to toggle fading</button>
+<br>
+<br>
+
+<div id="div1" style="width:50px;height:50px;backgournd-color:darkorange;"></div>
+<br>
+<div id="div2" style="width:50px;height:50px;backgournd-color:lightgrey;"></div>
+<br>
+<div id="div3" style="width:50px;height:50px;backgournd-color:green;"></div>
+
+</body>
+</html> 
+

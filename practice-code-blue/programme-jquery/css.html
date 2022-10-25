@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+
+   $("#btnRemove").click(function(){
+     $("h1, p").removeClass("red");   
+      });
+  $("#btnAdd").click(function(){
+     $("h1, p").addClass("red");   
+      });
+
+  $("#btnToggle").click(function(){
+     $("h1,p").toggleClass();   
+      });
+      
+});
+</script>
+<style>
+.red
+{
+ color:red;
+}
+</style>
+<body>
+
+<h1 class="red">Heading 1</h1>
+<p class="red">This is a paragraph.</p>
+
+<button id="btnRemove">Remove class from elements</button>
+<br><br>
+<button id="btnAdd">Add class to elements</button>
+<br><br>
+<button id="btnToggle">Toggle class from elements</button>
+
+</div>
+</body>
+</html> 
+

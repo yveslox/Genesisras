@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+
+    $("h3").click(function(){
+        $(this).hide();
+       });
+       
+    $("p").dblclick(function(){
+        $(this).hide();
+       });
+       
+     var counter = 1;
+
+    $("#demo1").hover(function(){
+  document.getElementById("demo2").innerHTML="You were here " + counter + " times";
+      counter++;
+       });
+    });
+</script>
+</head>
+<body>
+   <h3>Click on me to hide me</h3>
+   <p>Double click on me to hide me</p>
+   <p id="demo1">Hover over me</p>
+   <p id="demo2"></p>
+</body>
+</html>

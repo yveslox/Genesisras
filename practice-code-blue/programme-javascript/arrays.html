@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h3>Javascript datatypes</h3>
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+<p id="demo4"></p>
+<p id="demo5"></p>
+<p id="demo6"></p>
+<script>
+var icecreams =["Strawberry","Vanilla","Chocolate","Mango"];
+document.getElementById("demo1").innerHTML =icecreams;
+
+icecreams.push("Apple");
+document.getElementById("demo2").innerHTML = icecreams;
+
+document.getElementById("demo3").innerHTML =icecreams.length;
+document.getElementById("demo4").innerHTML =icecreams[1];
+
+icecreams.sort();
+document.getElementById("demo5").innerHTML =icecreams;
+
+icecreams.reverse();
+document.getElementById("demo6").innerHTML =icecreams;
+
+</script>
+</body>
+</html>
+

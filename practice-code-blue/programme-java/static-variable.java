@@ -1,0 +1,43 @@
+class staticvariable
+{
+private String first;
+private String last;
+private static int members = 0;
+
+ public staticvariable(String fn, String ln)
+  {
+   first = fn;
+   last = ln;
+   members++;
+   System.out.println("Members in club :"+ members); 
+ }
+
+ public String getfirst()
+ {
+  return first;
+ }
+
+ public String getlast()
+ {
+  return last;
+ }
+
+ public static int getmembers()
+ {
+  return members;
+ }
+
+}
+
+class main
+{
+ public static void main(String args[])
+ {
+  staticvariable obj1 = new staticvariable("ABC","Bcd");  
+  staticvariable obj2 = new staticvariable("Cde","Def");
+  staticvariable obj3 = new staticvariable("Efg","Fgh");
+  
+  System.out.println(obj2.getfirst());
+  System.out.println(staticvariable.getmembers());
+ }
+}

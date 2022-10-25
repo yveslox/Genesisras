@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h3>Javascript Events</h3>
+<button onclick="functionclick()">Click here</button>
+<button onmouseover="functionHover()" onmouseout="functionHoverout()">Hover over me </button>
+<p id="demo1"></p>
+<p id="demo2"></p>
+<script>
+function functionclick()
+{
+document.getElementById("demo1").innerHTML = "Button clicked!!";
+}
+function functionHover()
+{
+document.getElementById("demo2").innerHTML = "Hovering started !!";
+}
+
+function functionHoverout()
+{
+ document.getElementById("demo2").innerHTML = "Hovering Over !!";
+}
+</script>
+</body>
+</html>
+

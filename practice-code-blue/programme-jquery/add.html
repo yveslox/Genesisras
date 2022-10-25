@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+
+   $("#btn1").click(function(){
+     $("p").append("Append text");   
+      });
+  $("#btn2").click(function(){
+     $("p").prepend("Append text");
+      });
+      
+  $("#btn3").click(function(){
+     $("p").before("Append text");
+      });
+      
+  $("#btn4").click(function(){
+     $("p").after("Append text");
+      });
+});
+</script>
+<body>
+<button id="btn1">Append Text </button>
+<button id="btn2">Prepend Html</button>
+<button id="btn3">Before</button>
+<button id="btn4">After</button>
+<p>paragraph.</p>
+</body>
+</html> 
+

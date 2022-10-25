@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+   <h3>Javascript object</h3>
+   
+   <p id="demo1"></p>
+   <p id="demo2"></p>
+   <p id="demo3"></p>
+   <p id="demo4"></p>
+   
+   <script>
+     var person ={
+          firstname:"Thomas",
+          lastname:"gates",
+          email:"emailid@abc.com",
+          fullname:function()
+          {
+            return this.firstname + " " + this.lastname;
+          }
+          
+          };
+      document.getElementById("demo1").innerHTML= person.firstname;
+      document.getElementById("demo2").innerHTML= person.lastname;
+      document.getElementById("demo3").innerHTML= person.email;
+      document.getElementById("demo4").innerHTML= person.fullname();
+      
+      
+   </script>
+</body>
+</html>
+      

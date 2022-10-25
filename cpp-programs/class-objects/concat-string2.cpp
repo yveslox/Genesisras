@@ -1,0 +1,9 @@
+#include<string.h>
+#include<bits/stdc++.h>
+using namespace std;
+#define PI 3.14
+
+
+int main()
+{
+}

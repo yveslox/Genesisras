@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+   $("button").click(function(){
+      $.post("your_url_here", {
+        name:"Thomas Gates",
+        id="1234"
+        },
+        function(date,status)
+        {
+        alert("Data: "+ data);
+      });
+    });
+});
+</script>
+<body>
+<button>Send an HTTP Post request</button>
+</body>
+</html> 
+

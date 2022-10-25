@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h3>Javascript string</h3>
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+<p id="demo4"></p>
+
+<script>
+var txt ="Hello\"Javascript\"";
+document.getElementById("demo1").innerHTML = txt;
+document.getElementById("demo2").innerHTML = "text length: " + txt.length;
+
+var index = txt.indexOf("javascript");
+document.getElementById("demo3").innerHTML = "pattern \"Javascript\" found at index :"+index;
+document.getElementById("demo4").innerHTML = "Substring :First argument is index, second argument is length of extracted substring. txt.substring(0,5):" + txt.substring(0,5);
+</script>
+</body>
+</html>
+
