@@ -2,20 +2,18 @@
 
 int main()
 {
-    int n,sum = 0,c,remainder;
+    int n,sum = 0,c,value;
 
-    printf("Enter the number you want to add digits of : ");
-    scanf("%d",&n );
+    printf("Enter the number of intergers you want to add : ");
+    scanf("%d",&n);
 
+    printf("Enter %d integers \n",n);
 
-    while(n!=0)
+    for(c = 1;c<=n;c++)
     {
-        remainder = n %10;
-        sum += remainder;
-        n = n/10;
+        scanf("%d",&value);
+        sum +=value;
     }
-
-    printf("Sum of digits of entered number is = %d\n",sum);
-   
+    printf("sum of entered number = %d\n",sum);
     return 0;
 }
