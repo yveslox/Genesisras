@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UFT_8">
+ <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+<title>Survey Form</title>
+	  <link rel="stylesheet" href="styles.css" />
+  </head>
+</head>
+
+<body>
+<h1 id="title">Suervey form</h1>
+  
+  <p id="description">Please fill out this form with the required information</p>
+   <form id="survey-form">
+     <!---Personnal information --->
+     <fieldset>
+       <label id="name-label"> Name : <input type="text" id="name" name="last-name" placeholder="Enter your name"  required />
+       </label>
+       <label id="email-label"> Email : <input type="email" id="email" name="add-email"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Enter your email" required />
+       </label>
+       <label id="number-label">Number : <input type="number"  id="number" name="mob-number" pattern="[0-9]+" min="0000000000" max="9999999999" placeholder="Enter your Télephone number" required />
+     <label>
+     </fieldset>
+     
+
+     <!---Second fieldset --->
+     <fieldset>
+       <label> Are your :
+       <select id="dropdown">
+          <option disabled selected value>Select a Level</option>
+         <option value="Beginner">Beginner</option>
+         <option value="Apprentice">Apprentice</option>
+         <option value="Intermediaire">Intermediaire</option>
+         <option value="Advance">Advance</option>
+         <option value="Master">Master</option>
+       </select>
+       </label>
+     </fieldset>
+
+     <!---Third fieldset --->  
+     <fieldset>
+      <label> Mr <input type="radio" class="inline" value="Mr" name="sex" /></label>
+       <label> Mme <input type="radio" class="inline" value="Mme" name="sex" /></label>
+     </fieldset>
+     
+     <!---Fourth fieldset --->
+     <fieldset>
+       <label> I accept the terms <input type="checkbox" name="valid" class="inline" value="t&c" required />
+       </label>
+       <label> I accept the conditions <input type="checkbox" name="valid" class="inline" value="t&c" required />
+       </label>
+     </fieldset>
+
+     <!---Comment fieldset --->
+     <fieldset>
+      <label> Additional Comments
+      <textarea>
+      </textarea>
+      </label>
+     </fieldset>
+     
+     <input id="submit" type="submit" name="submit" value="Send"/>
+   </form>  
+</body>
+</html>
+
