@@ -12,9 +12,9 @@ int main()
     cout<<"Enter number of rows: ";
     cin>>rows;
 
-    cout<<"Diamond star pattern"<<endl;
+    cout<<"Diamond star pattern : "<<endl;
 
-    for(i = 1;j <= rows;i++)
+    for(i = 1;i <= rows;i++)
     {
      for(j=0;j <= rows - i;j++)
      {
