@@ -1,0 +1,90 @@
+html {
+    /* Setting a base font size of 10px give us easier rem calculations
+         Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+       */
+    font-size: 10px;
+  }
+  
+  body
+  {
+     background: linear-gradient(rgb(233, 216, 216),#e66465, rgb(233, 216, 216));
+     text-align:center;
+     color:white;
+     padding: auto;
+     margin: auto;
+     line-height:1.5;
+     font-size : 1.5rem;
+  }
+  
+  #main
+  {
+   width:90%;
+   background:#8999c5; 
+   color :white;
+   box-shadow: 2px 2px 2px black;
+   margin: auto;
+   padding: 10px;
+   border-radius:1px;
+  }
+  
+  @media (max-width: 460px) {
+    #main {
+      margin: 0;
+    }
+  }
+  h1 {
+    font-size: 5rem;
+    margin-bottom: 0;
+  }
+  
+  @media (max-width: 460px) {
+    h1 {
+      font-size: 3.5rem;
+      line-height: 1.2;
+    }
+  }
+  
+  .tribute-info
+  {
+    display: inline-block;
+  }
+  img
+  {
+   display: block;
+   max-width : 100%;
+   margin-left: auto;
+   margin-right: auto;
+   background: white;
+  }
+  
+  #img-div {
+    //background: white;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  #img-caption {
+    margin: 15px 0 5px 0;
+    //background: white;
+  }
+  
+  @media (max-width: 460px) {
+    #img-caption {
+      font-size: 1.4rem;
+    }
+  }
+  .image
+  {
+   height:auto;
+   text-align:center;
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  blockquote {
+    font-style: italic;
+    max-width: 545px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+  }
