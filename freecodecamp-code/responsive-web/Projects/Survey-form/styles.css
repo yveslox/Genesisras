@@ -36,8 +36,8 @@
   form {
     background:linear-gradient(rgba(101, 101, 231, 0),#559dce,rgb(121, 131, 187),silver);
     color: white;
-    border-radius: 2%; 
-    width: 60vw;
+    border-radius: 1%; 
+    width: 400vw;
     max-width: 650px;
     min-width: 300px;
     margin: 0 auto;
@@ -45,8 +45,9 @@
   }
   
   fieldset {
-    border: none;
+    border: 3px;
     padding: 1rem 0;
+    max-width:inherit;
     border-bottom: 3px solid #3b3b4f;
   }
   
