@@ -13,5 +13,22 @@ h1 , p
 form
 {
   width:70%;
+  display:block;
   margin: inherit;
+  border: 4px double;
+}
+
+fieldset
+{
+ border-bottom: 3px solid rgb(42, 27, 66);
+}
+
+fieldset:last-of-type
+{
+  border-bottom:2px solid rgb(137, 65, 170);
+}
+
+input
+{
+ width:30%;
 }
