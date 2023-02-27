@@ -30,7 +30,7 @@ fieldset:last-of-type
   border-bottom:2px solid rgb(25, 12, 31);
 }
 
-input
+input[type="submit"]
 {
  width:20%;
  height:20%;
