@@ -32,8 +32,7 @@ fieldset:last-of-type
 
 input[type="submit"]
 {
- width:20%;
- height:20%;
  margin:2px auto;
  justify-content:center;
+ cursor:pointer;
 }
