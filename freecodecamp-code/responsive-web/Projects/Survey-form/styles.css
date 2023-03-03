@@ -81,8 +81,8 @@
     font-family: inherit;
     font-size: inherit;
     line-height: inherit;
-    margin: auto;
-    width:100%;
+    margin: 1em auto;
+    width:60%;
     min-height: 5em;
     background-color: #4e3248;
     border: 10px solid #4e3248;
