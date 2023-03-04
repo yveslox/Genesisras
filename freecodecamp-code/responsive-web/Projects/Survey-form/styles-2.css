@@ -3,6 +3,7 @@ body
   width:85%;
   height:85%;
   margin: 0 auto;
+  background-color:peru
 }
 
 h1 , p
@@ -16,13 +17,15 @@ form
   width:75%;
   height:75%;
   display:block;
-  margin: inherit;
+  margin: 0 auto;
   border: 4px double;
+  background-color:rgb(170, 168, 168);
 }
 
 fieldset
 {
  border-bottom: 3px solid rgb(42, 27, 66);
+ display:block;
 }
 
 fieldset:last-of-type
