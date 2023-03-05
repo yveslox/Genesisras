@@ -3,7 +3,7 @@ body
   width:85%;
   height:85%;
   margin: 0 auto;
-  background-color:peru
+  background-color:rgb(247, 176, 106)
 }
 
 h1 , p
@@ -35,7 +35,7 @@ fieldset:last-of-type
 
 input[type="submit"]
 {
- margin:2px auto;
+ margin:0 auto;
  justify-content:center;
  cursor:pointer;
 }
