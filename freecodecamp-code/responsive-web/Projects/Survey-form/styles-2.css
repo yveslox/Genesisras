@@ -32,10 +32,16 @@ fieldset:last-of-type
 {
   border-bottom:2px solid rgb(25, 12, 31);
 }
-
+textarea
+{
+  width:auto;
+  height:auto;
+}
 input[type="submit"]
 {
  margin:0 auto;
  justify-content:center;
  cursor:pointer;
+ width: 50%;
+ text-align:center;
 }
