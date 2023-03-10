@@ -4,22 +4,27 @@
 <head>
   <meta charset="UFT_8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Latest compiled and minified CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>  
   <title>Survey Form</title>
+  
   <link rel="stylesheet" href="styles-2.css" />
 </head>
 
-<body text="black" background-color="grey" link="blue" vlink="red" alink="purple">
+<body class="container">
 <h1 id="title">Suervey form</h1>
   
   <p id="description">Please fill out this form with the required information</p>
    <form id="survey-form">
      <!---Personnal information --->
      <fieldset>
-        <label id="name-label"> Name : <input type="text" id="name" name="last-name" placeholder="Enter your name"  required />
+        <label id="name-label"> Name : <input type="text" class="form-control" id="name" name="last-name" placeholder="Enter your name"  required />
         </label>
-        <label id="email-label"> Email : <input type="email" id="email" name="add-email"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Enter your email" required />
+        <label id="email-label"> Email : <input type="email"  class="form-control" id="email" name="add-email"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Enter your email" required />
         </label>
-        <label id="number-label">Number : <input type="number"  id="number" name="mob-number" pattern="[0-9]+" min="0000000000" max="9999999999" placeholder="Enter your Télephone number" required />
+        <label id="number-label">Number : <input type="number" class="form-control" id="number" name="mob-number" pattern="[0-9]+" min="0000000000" max="9999999999" placeholder="Enter your Télephone number" required />
         <label>
      </fieldset>
      
@@ -27,7 +32,7 @@
      <!---Second fieldset --->
      <fieldset>
        <label> Are your :
-            <select id="dropdown">
+            <select id="dropdown" class="form-control">
                 <option disabled selected value>Select a Level</option>
                 <option value="Beginner">Beginner</option>
                 <option value="Apprentice">Apprentice</option>
@@ -40,24 +45,24 @@
 
      <!---Third fieldset --->  
      <fieldset>
-       <label> Mr <input type="radio" class="inline" value="Mr" name="sex" /></label>
-       <label> Mme <input type="radio" class="inline" value="Mme" name="sex" /></label>
+       <label> Mr <input type="radio" class="inline form-control" value="Mr" name="sex" /></label>
+       <label> Mme <input type="radio" class="inline form-control" value="Mme" name="sex" /></label>
      </fieldset>
      
      <!---Fourth fieldset --->
      <fieldset>
-        <label> I accept the terms <input type="checkbox" name="valid" class="inline" value="t&c" required /></label>
-        <label> I accept the conditions <input type="checkbox" name="valid" class="inline" value="t&c" required /></label>
+        <label> I accept the terms <input type="checkbox" name="valid" class="inline form-control" value="t&c" required /></label>
+        <label> I accept the conditions <input type="checkbox" name="valid" class="inline form-control" value="t&c" required /></label>
      </fieldset>
 
      <!---Comment fieldset --->
      <fieldset>
-          <label>Additional Comments
-              <textarea></textarea>
+          <label>Additional Comments :
+              <textarea class="form-control" id="comment" rows="6" cols="100" ></textarea>
           </label>
      </fieldset>
      
-     <input id="submit" type="submit" name="submit" value="Send"/>
+     <input id="submit"  class="form-control" type="submit" name="submit" value="Send"/>
    </form>  
 </body>
 </html>
