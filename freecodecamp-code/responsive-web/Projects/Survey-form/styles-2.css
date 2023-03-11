@@ -14,8 +14,8 @@ h1 , p
 
 form
 {
-  width:75%;
-  height:75%;
+  width:65%;
+  height:65%;
   display:block;
   margin: 0 auto;
   border: 4px double;
@@ -37,6 +37,7 @@ fieldset:last-of-type
 label {
   display: block;
   margin: 0.5rem 0;
+  padding: 0 auto;
 }
 
 textarea
@@ -44,7 +45,7 @@ textarea
   width:auto;
   height:auto;
   justify-content:center;
-  margin: 0 auto;
+  margin: 3px auto;
 }
 
 .inline {
@@ -52,7 +53,10 @@ textarea
   margin: 0 0.5em 0 0;
   vertical-align: middle;
 }
-
+input
+{
+  width:10%;
+}
 input[type="submit"]
 {
  margin:0 auto;
