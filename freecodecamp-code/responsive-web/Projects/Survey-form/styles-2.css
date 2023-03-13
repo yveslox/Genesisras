@@ -3,7 +3,7 @@ body
   width:85%;
   height:85%;
   margin: 0 auto;
-  background-color:rgb(247, 176, 106)
+  background:linear-gradient(rgb(247, 176, 106),rgb(236, 178, 108));
 }
 
 h1 , p
@@ -19,13 +19,13 @@ form
   display:block;
   margin: 0 auto;
   border: 4px double;
-  background-color:rgb(170, 168, 168);
+  background:linear-gradient(rgb(170, 168, 168),rgb(124, 118, 118));
 }
 
 fieldset
 {
  border-bottom: 3px solid rgb(42, 27, 66);
- 
+ padding:15px;
  display:block;
 }
 
@@ -61,7 +61,8 @@ input[type="submit"]
 {
  margin:0 auto;
  justify-content:center;
+ background:linear-gradient(90deg,rgb(78, 168, 78),rgb(37, 160, 37));
  cursor:pointer;
- width: 50%;
+ width:45%;
  text-align:center;
 }
