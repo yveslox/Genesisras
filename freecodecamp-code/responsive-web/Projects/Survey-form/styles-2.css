@@ -66,3 +66,14 @@ input[type="submit"]
  width:45%;
  text-align:center;
 }
+
+
+footer {
+  text-align: center;
+  padding:10px;
+  margin : 0 -100;
+  margin-top:100px;
+  width:100%;
+  background: rgb(53, 49, 49);
+  color:white;
+}
