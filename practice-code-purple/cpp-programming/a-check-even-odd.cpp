@@ -24,7 +24,7 @@ int main()
     }
 
     cout<<"\n===============================\n";
-    cout<<"Element in array is geiven below : ";
+    cout<<"Element in array is given below : ";
     cout<<"\n===============================\n";
     
     for(i = 0;i<n;i++)
