@@ -19,7 +19,7 @@ form
   display:block;
   margin: 0 auto;
   border: 4px double;
-  background:linear-gradient(15deg,rgb(94, 90, 90),rgb(141, 137, 137),rgb(94, 90, 90),rgb(141, 137, 137),rgb(94, 90, 90));
+  background:linear-gradient(25deg,rgb(94, 90, 90),rgb(141, 137, 137),rgb(94, 90, 90),rgb(141, 137, 137),rgb(94, 90, 90));
 }
 
 fieldset
