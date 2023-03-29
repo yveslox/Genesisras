@@ -3,7 +3,7 @@
     --color-white: #f3f3f3;
     --color-darkblue: #1b1b32;
     --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
-    --color-green: #37af65;
+    --color-green: #19bb4a;
   }
   
   
@@ -14,7 +14,7 @@
         rgb(99, 115, 206),
         rgba(53, 53, 136, 0.336)
       ),
-      url();
+      url(https://www.komar.de/en/media/catalog/product/cache/5/image/9df78eab33525d08d6e5fb8d27136e95/6/0/6041a-vd2_blue_sky_web.jpg);
     background-size:cover;
     background-repeat:no-repeat;
     font-size:17px;
@@ -25,10 +25,19 @@
     text-align: center;
     color: white;
   }
+
+  #title
+  {
+    font-style:bold;
+  }
   
+  #description 
+  {
+    font-style:italic;
+  }
   
   form {
-    background:linear-gradient(rgba(101, 101, 231, 0),#2294e0,rgb(83, 101, 204),rgb(86, 129, 179));
+    background:linear-gradient(rgba(30, 30, 228, 0),#3356f0,rgba(83, 101, 204, 0.87),rgba(27, 91, 230, 0.856));
     color: white;
     border-radius: 1%;
     border:1px solid black; 
@@ -37,6 +46,7 @@
     min-width: 300px;
     margin: 5px auto;
     padding-bottom: 2em;
+    box-shadow:9px 7px 7px black;
   }
   
   fieldset {
@@ -109,14 +119,14 @@
     padding:5px;
    
     width:100%;
-    
-    background-color:#457fd6;
+    font-style:bold;
+    background-color:#364cc9a4;
     color:white;
   }
   
   .footer-basic {
     padding:15px 3px;
-    background:rgba(26, 129, 226, 0.466);
+    background:rgba(117, 158, 197, 0.877);
     color:#4b4c4d;
     border: 2px solid black ;
   }
