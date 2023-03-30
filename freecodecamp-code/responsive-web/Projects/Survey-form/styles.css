@@ -46,7 +46,7 @@
     min-width: 300px;
     margin: 5px auto;
     padding-bottom: 2em;
-    box-shadow:9px 7px 7px black;
+    box-shadow:8px 7px 7px rgba(44, 42, 42, 0.651);
   }
   
   fieldset {
