@@ -1,6 +1,6 @@
 body
 {
-   background: linear-gradient(rgb(159, 160, 89),#4d5a40, rgb(40, 153, 168));
+   background:linear-gradient(90deg,rgb(105, 216, 105),rgb(240, 240, 92),rgb(137, 241, 137)); 
    text-align:center;
    margin: 0 auto;
    padding: 9px auto;
@@ -10,14 +10,74 @@ body
 #main
 {
  width:90%;
- background:#36f55fbe; 
+ background:linear-gradient(45deg,rgb(40, 153, 168),rgb(228, 164, 138),#b4abb8, rgb(171, 206, 211)); 
  box-shadow: 7px 2px 2px rgba(0, 0, 0, 0.541);
  margin: 30px auto;
  padding: 15px;
- border-radius:1px;
+ border-radius:9px;
 }
 
 
+@media (max-width: 460px) {
+    #main {
+      margin: 0;
+    }
+  }
+  h1 {
+    font-size: 5rem;
+    margin-bottom: 0;
+  }
+  
+  @media (max-width: 460px) {
+    h1 {
+      font-size: 3.5rem;
+      line-height: 1.2;
+    }
+  }
+  
+  .tribute-info
+  {
+    display: inline-block;
+  }
+  img
+  {
+   display: block;
+   max-width : 100%;
+   margin-left: auto;
+   margin-right: auto;
+     }
+  
+  #img-div {
+    padding: 8px;
+    margin: 5px auto;
+    background:rgba(0, 0, 0, 0);
+  }
+  
+  #img-caption {
+    margin: 5px auto;
+    background: rgba(255, 255, 255, 0);
+  }
+  
+  @media (max-width: 460px) {
+    #img-caption {
+      font-size: 1.4rem;
+    }
+  }
+  .image
+  {
+   height:auto;
+   text-align:center;
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  blockquote {
+    font-style: italic;
+    max-width: 545px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+  }
 
 
 
@@ -27,13 +87,13 @@ footer {
    
     width:100%;
     font-style:bold;
-    background-color:#03040fa4;
+    background-color:#03040ffd;
     color:white;
   }
   
   .footer-basic {
     padding:15px 3px;
-    background:rgba(7, 33, 58, 0.877);
+    background:rgba(86, 156, 221, 0.877);
     color:#4b4c4d;
     border: 2px solid black ;
   }
