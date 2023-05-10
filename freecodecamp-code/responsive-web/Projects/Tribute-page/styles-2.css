@@ -1,6 +1,6 @@
 body
 {
-   background:linear-gradient(90deg,rgb(105, 216, 105),rgb(235, 235, 204),rgb(137, 241, 137)); 
+   background:linear-gradient(90deg,rgb(181, 216, 181),rgb(235, 235, 204),rgb(176, 206, 176)); 
    text-align:center;
    margin: 0 auto;
    padding: 9px auto;
@@ -89,7 +89,7 @@ footer {
     padding:5px;
     
     font-style:bold;
-    background-color:#3845cffd;
+    background-color:black;
     color:white;
   }
   
