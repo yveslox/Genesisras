@@ -7,7 +7,7 @@ using namespace std;
 
 int main()
 {
-    string s ="abc";
+    string s ="abcd";
     
     s.append("z");
     cout<<s<<endl;
