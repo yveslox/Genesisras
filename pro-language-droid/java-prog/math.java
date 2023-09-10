@@ -7,7 +7,7 @@ class math
     {
         int x = 15;
         int y = 7;
-        int remainder = x%y;
+        int remainder =x%y;
         float division =(float)x/y;
 
         System.out.println("Remainder is : "+remainder);
