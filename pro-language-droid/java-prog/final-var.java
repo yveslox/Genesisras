@@ -14,6 +14,6 @@ class final_var
 
 class TestClass
 {
-    final int num = 5;
+    final int num = 55;
 }
 
