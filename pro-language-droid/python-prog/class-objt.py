@@ -8,7 +8,7 @@ class Books:
     def totalNumberOfbooks(self):
         print("Total Books : ",Books.totalBooks)
     def bookinformation(self):
-        print("Book name : ",self.name,",Book id : ",self.id)
+        print("Book n1ame : ",self.name,",Book id : ",self.id)
 
 book1 = Books("python",12);
 book2 = Books("Kotlin",7);
