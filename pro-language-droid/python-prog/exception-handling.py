@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 try:
-    fh = opne("filename","r")
+    fh = open("filename","r")
     num = -5
 
     if(num <0):
