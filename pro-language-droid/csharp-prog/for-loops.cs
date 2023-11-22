@@ -1,5 +1,5 @@
 using System;
-namespace whileloop{
+namespace forloop{
     class Program{
         static void Main(string[] args){
         
