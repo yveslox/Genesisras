@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+<p id="demo4"></p>
+
+<script>
+   var txt="Hello \"Javascript\"";
+    
+   document.getElementById("demo1").innerHTML=txt;
+   
+   document.getElementById("demo2").innerHTML="Text length :"+txt.length;
+
+   var index=txt.indexOf("Javascript");
+   document.getElementById("demo3").innerHTML="Pattern \" Javascript\" found at index: "+index;
+
+   document.getElementById("demo4").innerHTML="Substring: first argument s index, second argument is length of extracted substring txt.substring(0.5):"+txt.substring(0,5);
+
+   
+</script>    
+
+</body>    
+</html>
