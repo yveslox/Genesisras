@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h3>Javascript Comparisons</h3>
+<p id="demo"></p>
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+<p id="demo4"></p>
+<p id="demo5"></p>
+<p id="demo6"></p>
+<p id="demo7"></p>
+<p id="demo8"></p>
+
+<script>
+   var a = 12;
+   var b = 7;
+   document.getElementById("demo").innerHTML="a ="+a+",b ="+b;
+
+   if(a>b)
+   {
+    document.getElementById("demo1").innerHTML="a > b";
+   }
+   
+   if(a<b)
+   {
+    document.getElementById("demo2").innerHTML="a < b";
+   }
+  
+   if(a>=b)
+   {
+    document.getElementById("demo3").innerHTML="a >= b";
+   }
+   if(a<=b)
+   {
+    document.getElementById("demo4").innerHTML="a <= b";
+   }
+  
+   var res = a & b;
+
+   document.getElementById("demo5").innerHTML="a & b ="+res;
+   
+   res = a | b;
+
+   document.getElementById("demo6").innerHTML="a | b ="+res;
+   
+   res = a ^ b;
+
+   document.getElementById("demo7").innerHTML="a ^ b ="+res;
+   
+   res = a ^ b;
+
+   document.getElementById("demo8").innerHTML="a & b ="+res;
+
+
+</script>    
+
+</body>    
+</html>
