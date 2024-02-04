@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h3>Javascript JSON Example</h3>
+<p id="demo"></p>
+<script>
+   var text = '{"Person":['+ 
+   '{"firstName":"John","lastName":"Pollo"},'+
+   '{"firstName":"Peter","lastName":"Parker"}]}';
+
+   obj = JSON.parse(text);
+
+   document.getElementById("demo").innerHTML=
+   obj.person[0].firstName+""+
+   obj.person[0].lastName+""+
+   obj.person[1].firstName+""+
+   obj.person[1].lastName+""+
+
+   obj.person[2].firstName+""+
+   obj.person[2].lastName+""+
+   "";
+   
+
+</script>    
+
+</body>    
+</html>
