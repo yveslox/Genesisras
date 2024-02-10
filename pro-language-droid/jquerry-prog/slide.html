@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#fadeln").click(function(){
+        $("div1").slideUp();
+        $("div2").slideUp("slow");
+        $("div3").slideUp(500);
+    });
+    
+    $("#fadeOut").click(function(){
+        $("div1").slideDown();
+        $("div2").slideDown("slow");
+        $("div3").slideDown(500);
+    });
+    
+    $("#fadeToggle").click(function(){
+        $("div1").slideToggle();
+        $("div2").slideToggle("slow");
+        $("div3").slideToggle(500);
+    });
+    
+
+});
+</script>   
+<body>
+<button id="fadeln">Click here to slide up </button>
+<br>
+<br>
+<button id="fadeOut">Click here to slide down </button>
+<br>
+<br>
+<button id="fadeToggle">Click to toggle sliding</button>        
+<br>
+<br>
+<div id="div1" style="width:50;height:50px;display:none;background-color:darkorange;"></div>
+<br>
+<div id="div2" style="width:50;height:50px;display:none;background-color:lightgrey"></div>
+<br>
+<div id="div3" style="width:50;height:50px;display:none;background-color:green"></div>
+
+</body>    
+</html>
