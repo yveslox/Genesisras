@@ -3,7 +3,7 @@
 class Books:
       totalBooks = 0
 
-def _init_(self, name, id):
+def __init__(self, name, id):
      self.name = name
      self.id = id
      Books.totalBooks += 1
