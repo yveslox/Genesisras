@@ -7,6 +7,6 @@ foreach($array as $i)
     if($i==1)
     continue;
     
-    echo "i = $i \n";
+    echo "i = $i  \n";
 }
 ?>
