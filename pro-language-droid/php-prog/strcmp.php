@@ -11,3 +11,4 @@ else
 {
  echo "Both strings are equal\n";
 }
+?>
