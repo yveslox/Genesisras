@@ -5,13 +5,13 @@ class program
  static void Main(string[] args)
  {
   int a = 12;
-  int b = 0;
-  
+  int b = 1;
+  int c ;
   try
   {
-  int c = a / b;
+   c = a / b;
+   Console.WriteLine("Trial: ",c);
   }
-  
   catch(Exception e)
   {
    Console.WriteLine("Exception: {0}",e);
