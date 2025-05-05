@@ -12,5 +12,5 @@ def fibonacci(n):
     
 i=1 
 while(i<=10):
-  print("fibonacci number ",i,":" fibonacci(i))
+  print("fibonacci number ",i,":",fibonacci(i))
   i=i+1
