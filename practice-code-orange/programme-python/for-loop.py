@@ -2,7 +2,7 @@
 
 name="python programming"
 
-    print("loop 1")
+print("loop 1")
 
 for ch in name:
     print (ch,)
@@ -26,5 +26,5 @@ for ch in name:
     print (ch,)
     
 else :
-     print ""
-     print "third loop completed."
+    print ("")
+    print ("third loop completed.")
