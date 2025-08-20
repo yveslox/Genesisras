@@ -6,7 +6,7 @@ using namespace std;
 int sum(int,int);
 int sub(int,int);
 int mul(int,int);
-int div(int,int);
+int divi(int,int);
 
 int rem;
 
@@ -19,7 +19,7 @@ int main()
     s = sum(a,b);
     su = sub(a,b);
     m = mul(a,b);
-    d = div(a,b);
+    d = divi(a,b);
 
     cout<<"Sum : = "<<s<<" Substraction : = "<<su<<endl;
     cout<<"Multiplocation : = "<<m<<" Division : = "<<d<<endl;
@@ -45,7 +45,7 @@ int mul(int a,int b)
     return(rem);
 }
 
-int div(int a,int b)
+int divi(int a,int b)
 {
     rem = a/b;
     return(rem);
